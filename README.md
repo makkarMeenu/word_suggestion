@@ -11,3 +11,6 @@ here input.csv is path to dictionary file and word is the word(correct or misspe
 
 technique used : 
 Multiple Hashmaps, checks frequencies, prefix, postfix, length and gives the output.
+
+
+Dictionaries should be less than 10000 is size.
