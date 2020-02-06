@@ -22,7 +22,7 @@ public class spellSuggestion {
             			String line=br.readLine();
             			if(line==null)
             				break;
-            			//parsing , removing ',' and double quotes
+            			line=line.split(",")[0];
             			line=line.replaceAll(",", "");
             			line=line.replaceAll("\"", "");
             			dictionary.add(line);
